@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Imagens</title>
+  <link rel="stylesheet" href="estilos/estilo.css">
+  <link rel="stylesheet" href="estilos/responsivo.css">
+</head>
+<body>
+
+  <header>
+    <h1>Gerador de Imagens com IA</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="gerar.html">Gerar Imagem</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Descreva a imagem que deseja gerar</h2>
+
+    <form method="get" action="gerar.html">
+      <input type="text" name="descricao" placeholder="Digite a descrição da imagem" required>
+      <button type="submit">Gerar Imagem</button>
+    </form>
+
+    <div id="imagemGerada">
+      <h3>Imagem gerada:</h3>
+      <img src="https://picsum.photos/500?random=1" alt="Imagem gerada aleatoriamente">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Projeto de Introdução à Computação</p>
+  </footer>
+
+</body>
+</html>
